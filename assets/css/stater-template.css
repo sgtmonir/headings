@@ -1,0 +1,357 @@
+a {
+    color: #72c02c;
+    text-decoration: none;
+    background-color: transparent;
+    transition: ease all .2s;
+}
+
+a:hover {
+    color: #72c02c;
+	text-decoration: none;
+}
+
+.text-primary {
+    color: #72c02c !important;
+}
+.py-80{
+    padding: 80px 0;
+}
+
+/******* Accordion 01 ******/
+.accordion1-body {
+  padding: 1.07143rem;
+  color: #555;
+}
+
+.accordion1-title{
+	padding: 10px 15px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: 1px solid #eee;
+}
+.accordion1-header [aria-expanded="true"] {
+    background: #72c02c;
+	color: #fff;
+	border-color: #72c02c;
+}
+.accordion1-control-icon i:nth-child(1) {
+  display: none;
+}
+
+.collapsed .accordion1-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+.accordion1-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+.collapsed .accordion1-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="false"] .accordion1-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+[aria-expanded="false"] .accordion1-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion1-control-icon i:nth-child(1) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion1-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+/******* Accordion 02 ******/
+.accordion2-body {
+  padding: 1.07143rem;
+  border: 1px solid #eee;
+  border-top: 0;
+  color: #555;
+}
+
+.accordion2-title{
+	padding: 10px 15px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: 1px solid #eee;
+	color: #555;
+}
+.accordion2-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+.accordion2-control-icon i:nth-child(1) {
+  display: none;
+}
+
+.collapsed .accordion2-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+.accordion2-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+.collapsed .accordion2-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="false"] .accordion2-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+[aria-expanded="false"] .accordion2-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion2-control-icon i:nth-child(1) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion2-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+/******* Accordion 03 ******/
+.accordion3-body {
+  padding: 1.07143rem;
+  border: 1px solid #eee;
+  border-top: 0;
+  color: #555;
+}
+
+.accordion3-title{
+	padding: 10px 15px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: 1px solid #eee;
+	color: #555;
+}
+.accordion3-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+
+/******* Accordion 04 ******/
+.accordion4-body {
+  padding: 1.07143rem;
+  border: 1px solid #eee;
+  border-top: 0;
+  color: #555;
+}
+
+.accordion4-title{
+	padding: 10px 15px;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: 1px solid #eee;
+	color: #555;
+}
+.accordion4-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+
+/******* Accordion 05 ******/
+.accordion5 .bg-primary-dark{
+    background-color: #66ab27 !important;
+}
+.accordion5 .bg-primary{
+    background-color: #72c02c  !important;
+}
+.accordion5-body {
+  padding: 0 15px 15px 15px;
+  border: none;
+  border-top: 0;
+  color: #fff;
+}
+
+.accordion5-title{
+	padding: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: none;
+	color: #fff !important;
+	border-radius: 0;
+}
+.accordion5-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+
+/******* Accordion 06 ******/
+.accordion6 .bg-primary-dark{
+    background-color: #66ab27 !important;
+}
+.accordion6 .bg-primary{
+    background-color: #72c02c  !important;
+}
+.accordion6-body {
+  padding: 0 15px 15px 15px;
+  border: none;
+  border-top: 0;
+  color: #fff;
+}
+
+.accordion6-title{
+	padding: 20px;
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: none;
+	color: #fff !important;
+	border-radius: 0;
+}
+.accordion6-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+.accordion6-control-icon i:nth-child(1) {
+  display: none;
+}
+
+.collapsed .accordion6-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+.accordion6-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+.collapsed .accordion6-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="false"] .accordion6-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+[aria-expanded="false"] .accordion6-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion6-control-icon i:nth-child(1) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion6-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+
+/******* Accordion 07 ******/
+.accordion7-body {
+  padding: 1.07143rem;
+  border: 1px solid #eee;
+  border-top: 0;
+  color: #555;
+}
+
+.accordion7-title{
+	padding: 10px 15px;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border: 1px solid #eee;
+	color: #555;
+}
+.accordion7-header [aria-expanded="true"] {
+    color: #72c02c;
+}
+.accordion7-control-icon i:nth-child(1) {
+  display: none;
+}
+
+.collapsed .accordion7-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+.accordion7-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+.collapsed .accordion7-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="false"] .accordion7-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+[aria-expanded="false"] .accordion7-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion7-control-icon i:nth-child(1) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion7-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+/******* Accordion 08 ******/
+#accordion8{
+webkit-box-shadow: 0 5px 50px 0 rgba(22, 104, 183, 0.05);
+    box-shadow: 0 5px 50px 0 rgba(22, 104, 183, 0.05);
+}
+.accordion8 .card{
+    border-bottom: 1px solid #eee !important;
+}
+.accordion8-body {
+    padding: 0 20px 20px 20px;
+    border-top: 0;
+    color: #555;
+}
+
+.accordion8-title{
+	padding: 20px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: .5px;
+	color: #555;
+}
+
+.accordion8-control-icon i:nth-child(1) {
+  display: none;
+}
+
+.collapsed .accordion8-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+.accordion8-control-icon i:nth-child(2) {
+  display: inline;
+}
+
+.collapsed .accordion8-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="false"] .accordion8-control-icon i:nth-child(1) {
+  display: inline;
+}
+
+[aria-expanded="false"] .accordion8-control-icon i:nth-child(2) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion8-control-icon i:nth-child(1) {
+  display: none;
+}
+
+[aria-expanded="true"] .accordion8-control-icon i:nth-child(2) {
+  display: inline;
+}
